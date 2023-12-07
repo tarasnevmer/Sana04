@@ -15,3 +15,5 @@ int upperRange = int.Parse(Console.ReadLine());
 
 int[,] matrix = GenerateMatrix.generateMatrix(N, M, lowerRange, upperRange);
 
+Console.WriteLine("Матриця: ");
+PrintMatrix.printMatrix(matrix);
